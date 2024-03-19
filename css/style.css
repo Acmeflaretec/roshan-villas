@@ -196,9 +196,9 @@ ul{
 .cl-effect-10 a:hover::before, .cl-effect-10 a:focus::before {
     transform: translateX(0%);
 }
-.cl-effect-10 a.active{
+/* .cl-effect-10 a.active{
     color: #ff;
-}
+} */
 .cl-effect-10 {
     position: relative;
     z-index: 1;
@@ -913,3 +913,22 @@ footer a{
 #instafeed > div:nth-last-child(-n+3) {
     margin-top: 15px;
 }
+
+/*  */
+@media only screen and (max-width: 768px) {
+.logopic{
+max-height: 70px !important;
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
