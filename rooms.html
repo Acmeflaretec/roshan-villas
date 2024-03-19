@@ -30,23 +30,34 @@ License URI: http://www.themevault.net/license/-->
     <body>
         <div id="page">
             <!---header top---->
-            <div class="top-header">
+            <div class="top-header" style="background-color: rgb(14, 87, 14);">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-md-6">
-
-                        </div>
-                        <div class="col-md-6"><div class="social-grid">
-                                <ul class="list-unstyled text-right">
-                                    <li><a><i class="fa fa-facebook"></i></a></li>
-                                    <li><a><i class="fa fa-twitter"></i></a></li>
-                                    <li><a><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a><i class="fa fa-instagram"></i></a></li>
-                                </ul>
-                            </div></div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <!--                            <a href="#"> </a>
+                                                                <div class="info-block"><i class="fa fa-map"></i>701 Old York Drive Richmond USA.</div>-->
                     </div>
+                    <div class="col-md-6">
+                      <div class="social-grid">
+                        <ul class="list-unstyled text-right">
+                          <li>
+                            <a><i class="fa fa-facebook"></i></a>
+                          </li>
+                          <li>
+                            <a><i class="fa fa-twitter"></i></a>
+                          </li>
+                          <li>
+                            <a><i class="fa fa-linkedin"></i></a>
+                          </li>
+                          <li>
+                            <a><i class="fa fa-instagram"></i></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-            </div>
+              </div>
             <!--header--->
             <header class="header-container">
                 <div class="container">
@@ -54,9 +65,14 @@ License URI: http://www.themevault.net/license/-->
                         <div class="row">
                             <div class="col-md-2 col-sm-6 col-xs-6">
                                 <div id="logo">
-                                    <!--<a href="index.html"><img src="images/logo.png" alt="logo"></a>-->
-                                    <a href="index.html"><span>vacay</span>home</a>
-                                </div>                       
+                                    <a href="index.html">
+                                      <img
+                                        class="logopic"
+                                        src="/images/logo/logocut-removebg-preview.png"
+                                        style="max-height: 50px"
+                                      />
+                                    </a>
+                                  </div>                     
                             </div>
                             <div class="col-sm-6 visible-sm">
                                 <div class="text-right"><button type="button" class="book-now-btn">Book Now</button></div>
@@ -74,14 +90,29 @@ License URI: http://www.themevault.net/license/-->
                                     </div>
                                     <div class="collapse navigation navbar-collapse navbar-ex1-collapse remove-space">
                                         <ul class="list-unstyled nav1 cl-effect-10">
-                                            <li><a  data-hover="Home" href="index.html"><span>Home</span></a></li>
-                                            <li><a data-hover="About"  href="about.html"><span>About</span></a></li>
-                                            <li><a data-hover="Rooms"  class="active"><span>Rooms</span></a></li>
-                                            <li><a data-hover="Gallery"  href="gallery.html"><span>Gallery</span></a></li>
-                                            <li><a data-hover="Dinning" href="dinning.html"><span>Dinning</span></a></li>
-                                            <li><a data-hover="News" href="blog.html"><span>News</span></a></li>
-                                            <li><a data-hover="Contact Us" href="contact.html"><span>contact Us</span></a></li>
-                                        </ul>
+                                            <li>
+                                              <a data-hover="Home" href="index.html"
+                                                ><span>Home</span></a
+                                              >
+                                            </li>
+                                            <li>
+                                              <a data-hover="About" href="about.html"
+                                                ><span>About</span></a
+                                              >
+                                            </li>
+                                           
+                                            <li>
+                                              <a data-hover="Service" href="rooms.html" class="active"
+                                                ><span>Service</span></a
+                                              >
+                                            </li>
+                                         
+                                            <li>
+                                              <a data-hover="Contact Us" href="contact.html"
+                                                ><span>contact Us</span></a
+                                              >
+                                            </li>
+                                          </ul>
                                     </div>
                                 </nav>
                             </div>
@@ -97,13 +128,134 @@ License URI: http://www.themevault.net/license/-->
             <!--end-->
             <section class="image-head-wrapper" style="background-image: url('images/banner.jpg');">
                 <div class="inner-wrapper">
-                    <h1>Rooms</h1>
+                    <h1>Service</h1>
                 </div>
             </section>
             <div class="clearfix"></div>
 
-            <!--gallery block--->
-            <section class="gallery-block gallery-front">
+           
+
+            <!--service block--->
+            <section class="service-block">
+                <div class="bg-set-col">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-3 col-xs-6 width-50">
+                                <div class="service-details text-center">
+                                    <div class="service-image">
+                                        <img alt="image" class="img-responsive" src="images/icons/wifi.png">
+                                    </div>
+                                    <h4><a>Doctor on call</a></h4>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-6 width-50">
+                                <div class="service-details text-center">
+                                    <div class="service-image">
+                                        <img alt="image" class="img-responsive" src="images/icons/key.png">
+                                    </div>
+                                    <h4><a>24 hr security</a></h4>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-6 mt-25">
+                                <div class="service-details text-center">
+                                    <div class="service-image">
+                                        <img alt="image" class="img-responsive" src="images/icons/car.png">
+                                    </div>
+                                    <h4><a>parking space</a></h4>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-6 mt-25">
+                                <div class="service-details text-center">
+                                    <div class="service-image">
+                                        <img alt="image" class="img-responsive" src="images/icons/user.png">
+                                    </div>
+                                    <h4><a>customer support</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--  -->
+            <section class="about-block">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 about-left">
+                            <img src="/images/gallery/1.jpg"  style="max-width: 450px;" />
+                        </div>
+                        <div class="col-md-7 about-right">
+                            <h3 style="color: rgb(14, 87, 14);">Roshan Villa Resort Developers presents our maiden villa project in
+                                Neelagiri District - Roshan Villa Resort</h3>
+                            <p>
+                                Roshan Villa Resort provides two different styles of Three star living located at Neelagiri, Just 15 km from 
+                                Bhavani lake. We provide 20 cottages in 5 acres of land with Mannarkkad to Neelagiri Dist. Ooty roads in a 
+                                misty location just accessible to all parts of Neelagiri Dist Ooty. Starting from just Rs. 35 lakh, We provide 
+                                an opportunity for you start an organic farming culture in your own land. Your investment can give you an 
+                                assured monthly return in the form of rent or from the sale of farming products. We provide resort 
+                                management facilities and farming assistance to assure you of your monthly returns. Our facilities and 
+                                cottages are designed with Three star facilities, to get you more rental income. Our club house with pool 
+                                area facilities are designed for both business and family meetings. Nearly 30 cents of land is earmarked 
+                                for the club house and pool with children's play area. Our club house has indoor game zones, Party area, 
+                                Pool side barbecue counter etc...
+                                                    </p>
+                  
+                        </div>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+            </section>
+
+
+            <!--  -->
+            <section class="about-block">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 about-left">
+                            <img src="/images/gallery/1.jpg" style="max-width: 450px;" />
+                        </div>
+                        <div class="col-md-7 about-right">
+                            <h3 style="color: rgb(14, 87, 14);">Our Services</h3>
+                            <p>
+                                At Roshan Villa Resort Developers, we offer a wide range of services to enhance your stay and experience:</p>
+                                <div style="display: flex;">
+                                    <ul style="  list-style-type: none;">
+                                        <li>Wide international Roads</li>
+                                        <li>Jogging Track</li>
+                                        <li>Badminton Court</li>
+                                        <li>Club House</li>
+                                        <li>Multi Gym</li>
+                                        <li>Party Area</li>
+                                        <li>Table Tennis</li>
+                                        <li>Billiards</li>
+                                        <li>CCTV Surveillance</li>
+                                        
+                                   
+                                    </ul>
+                                    <ul style="  list-style-type: none; padding-left: 30px;">
+                                      
+                                        <li>24 hr Security</li>
+                                        <li>Ayurvedic Treatment</li>
+                                        <li>Doctor on Call</li>
+                                        <li>Abundant well water facility</li>
+                                        <li>Nearby river</li>
+                                        <li>Availability of organic vegetables</li>
+                                        <li>Assistance for farming</li>
+                                        <li>Trekking Assistance</li>
+                                        <li>Waste management</li>
+                                    </ul>
+                                </div>
+                             
+                            
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </section>
+            
+
+
+             <!--gallery block--->
+             <section class="gallery-block gallery-front">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
@@ -146,50 +298,8 @@ License URI: http://www.themevault.net/license/-->
                 </div>
             </section>
 
-            <!--service block--->
-            <section class="service-block">
-                <div class="bg-set-col">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-3 col-sm-3 col-xs-6 width-50">
-                                <div class="service-details text-center">
-                                    <div class="service-image">
-                                        <img alt="image" class="img-responsive" src="images/icons/wifi.png">
-                                    </div>
-                                    <h4><a>free wifi</a></h4>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-3 col-xs-6 width-50">
-                                <div class="service-details text-center">
-                                    <div class="service-image">
-                                        <img alt="image" class="img-responsive" src="images/icons/key.png">
-                                    </div>
-                                    <h4><a>room service</a></h4>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-3 col-xs-6 mt-25">
-                                <div class="service-details text-center">
-                                    <div class="service-image">
-                                        <img alt="image" class="img-responsive" src="images/icons/car.png">
-                                    </div>
-                                    <h4><a>free parking</a></h4>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-3 col-xs-6 mt-25">
-                                <div class="service-details text-center">
-                                    <div class="service-image">
-                                        <img alt="image" class="img-responsive" src="images/icons/user.png">
-                                    </div>
-                                    <h4><a>customer support</a></h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
             <!---footer--->
-            <footer>
+            <footer style="background-color: rgb(14, 87, 14);">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-3 col-sm-6 col-xs-12 width-set-50">
