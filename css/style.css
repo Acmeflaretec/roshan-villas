@@ -929,8 +929,27 @@ max-height: 70px !important;
 
 
 }
+.center-responsive-img{
+display: flex;
+justify-content: center;
+
+}
 
 @media only screen and (max-width: 768px) {
+
+.center-responsive-img{
+
+
+}
+
+    .gallery-image{
+    
+    }
+.img-responsive{
+
+
+}
+
 .nav-style{
 padding-left: 0px !important;
 }
